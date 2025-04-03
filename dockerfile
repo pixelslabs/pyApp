@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy the application
-COPY hello.py .
+COPY pyPrint.py .
 
 # Run the application
 CMD ["python", "pyPrint.py"]
